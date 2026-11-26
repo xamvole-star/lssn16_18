@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="C:/Gradle/gradle-9.8.0/caches/modules-2/files-2.1/io.qameta.allure/allure-descriptions-javadoc/2.35.5/5ac4adcc52141c267df376783c4dfe21f8dd4c28/allure-descriptions-javadoc-2.35.5.jar" />
+        </processorPath>
+        <module name="lssn16_18.main" />
+        <module name="lssn16_18.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17" />
+  </component>
+</project>

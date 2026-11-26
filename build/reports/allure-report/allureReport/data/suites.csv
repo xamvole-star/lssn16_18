@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10981","testers()","","2026-11-26","passed","2026-11-26","","tests.JavaFaker","tests.JavaFaker","testers"
+"","10085","testers()","","2026-11-26","passed","2026-11-26","","tests.RegistrationWithPageObjectJavaTest","tests.RegistrationWithPageObjectJavaTest","testers"
