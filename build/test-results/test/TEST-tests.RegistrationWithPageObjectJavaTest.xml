@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationWithPageObjectJavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-27T05:20:21.588Z" hostname="DESKTOP-CBQ3G36" time="18.314">
+<testsuite name="tests.RegistrationWithPageObjectJavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-27T12:43:29.422Z" hostname="DESKTOP-CBQ3G36" time="312.404">
   <properties/>
-  <testcase name="Успешная регистрация студента" classname="tests.RegistrationWithPageObjectJavaTest" time="18.042"/>
+  <testcase name="Успешная регистрация студента" classname="tests.RegistrationWithPageObjectJavaTest" time="312.074"/>
   <system-out><![CDATA[Форма загружена
 ]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-нояб. 27, 2026 3:20:25 PM org.openqa.selenium.devtools.DevToolsProvider getImplementation
-INFO: WebDriver augmented with DevTools interface; connection will not be verified until first use.
-[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.18.2 / Selenium 4.50.0 / chrome 158.0.8127.88 linux
+нояб. 27, 2026 10:48:30 PM org.openqa.selenium.manager.SeleniumManager lambda$runCommand$0
+WARNING: There was an error managing chromedriver (error decoding response body for url (https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)); using driver found in the cache
+нояб. 27, 2026 10:48:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 158, returning the closest version; found: 154; Please update to a Selenium version that supports CDP version 158
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide 7.18.2 / Selenium 4.50.0 / chrome 158.0.8127.37 windows
 [Test worker] WARN com.codeborne.selenide.impl.BiDiUti - Failed to use BiDi to collect browser logs: org.openqa.selenium.bidi.BiDiException: Unable to create a BiDi connection
 Build info: version: '4.50.0', revision: 'be845fb be845fb44341cd7a6e7b27ba02dc1bdcf69dc51c'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
 Driver info: BiDi Connection
-[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> RemoteWebDriver$ByteBuddy$MWkxWTPf$ByteBuddy$kjio5tAP: chrome on linux (343a8074e41cf8788b7d6a980322d81a)
+[Test worker] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (da5af38d7d75f81da3caaba116feea68)
 ]]></system-err>
 </testsuite>
