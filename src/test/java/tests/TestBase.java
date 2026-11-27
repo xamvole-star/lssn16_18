@@ -13,7 +13,7 @@ public class TestBase {
 
     @BeforeAll
     static void SetupBrowser() {
-        Configuration.browserSize = "920x780";
+        Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = false; // для отладки
         Configuration.timeout = 10000;
         Configuration.baseUrl = "https://demoqa.com";
