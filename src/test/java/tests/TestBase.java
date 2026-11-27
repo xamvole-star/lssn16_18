@@ -18,6 +18,9 @@ public class TestBase {
         Configuration.timeout = 10000;
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
+        Configuration.remote = System.getenv().getOrDefault(
+                "SELENOID_URL", "http://localhost:4444/wd/hub"
+        );
 
 //todo разобраться с обходом автоматизации гугла, не достаточно blink, похоже надо задавать браузер итд
         ChromeOptions options = new ChromeOptions(); // создаем новый объект для обхода ботов
