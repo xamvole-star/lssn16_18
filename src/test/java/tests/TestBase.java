@@ -14,7 +14,7 @@ public class TestBase {
     @BeforeAll
     static void SetupBrowser() {
         Configuration.browserSize = "920x780";
-        Configuration.holdBrowserOpen = true; // для отладки
+        Configuration.holdBrowserOpen = false; // для отладки
         Configuration.timeout = 10000;
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.pageLoadStrategy = "eager";
@@ -22,10 +22,13 @@ public class TestBase {
                 "SELENOID_URL", "http://localhost:4444/wd/hub"
         );
 
+
 //todo разобраться с обходом автоматизации гугла, не достаточно blink, похоже надо задавать браузер итд
         ChromeOptions options = new ChromeOptions(); // создаем новый объект для обхода ботов
         options.addArguments("--disable-blink-features=AutomationControlled");
         options.setCapability("webSocketUrl", false);
+        options.setCapability("selenoid:options", java.util.Map.of("enableVideo", true)); // запись видео в selenoid
         Configuration.browserCapabilities = options;
+
     }
 }
